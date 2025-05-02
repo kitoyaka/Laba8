@@ -1,5 +1,13 @@
 "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\rigry\CLionProjects\Laba8 -B C:\Users\rigry\CLionProjects\Laba8\cmake-build-debug
--- Found CURL: C:/curl-8.13.0_3-win64-mingw/lib/libcurl.a (found version "8.13.0")
--- Configuring done (0.3s)
+CMake Deprecation Warning at cmake-build-debug/_deps/nlohmann_json-src/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using the multi-header code from C:/Users/rigry/CLionProjects/Laba8/cmake-build-debug/_deps/nlohmann_json-src/include/
+-- Configuring done (1.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Users/rigry/CLionProjects/Laba8/cmake-build-debug
